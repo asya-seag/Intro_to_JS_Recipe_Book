@@ -7,7 +7,7 @@ Welcome to the GitHub repository for the final project of the Code First Girls (
 This project was developed as part of the Code First Girls Introduction to JavaScript course. It's an interactive web application that allowed me to practice some HTML, CSS, and JavaScript concepts. 
 The project is focused on  allowing users to store their recipes, with functionality to Edit them and Delete them, as well as mark user's favourites.
 
-**Note:** Since the project was originally meant to be submitted via CodePen.io, it follows a single-page structure.
+**Note:** The project was originally meant to be submitted via CodePen.io.
 
 ## Getting Started
 
