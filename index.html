@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Favorite Recipes</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet"> 
+</head>
+  
+<body>
+  <header>
+    <h1>Favorite Recipes<img src="https://www.svgrepo.com/show/186339/recipe-book.svg" alt="Favorite Icon" class="favorite-icon-header"></h1>
+  </header>
+  <main>
+    <div class="recipe-form">
+      <label class="input-label" for="recipeName">Recipe Name:</label>
+      <textarea  type="text" id="recipeName" class="small-input" required></textarea>
+      
+      <label class="input-label" for="ingredients">Ingredients:</label>
+      <textarea id="ingredients" class="large-input" rows="5" required></textarea>
+      
+      <label class="input-label" for="method">Method:</label>
+      <textarea id="method" class="large-input" rows="10" required></textarea>
+      
+      <button class="add-recipe-button" id="addRecipe">Add Recipe</button>
+    </div>
+    <section class="saved-recipes" id="recipeList">
+      <h2>Saved Recipes</h2>
+    </section>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
+

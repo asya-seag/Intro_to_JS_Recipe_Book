@@ -1,0 +1,123 @@
+body {
+  font-family: 'Source Code Pro', monospace;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background-image: radial-gradient(circle, #98D7C2, #167D7F);
+  margin: 20px 0;
+  padding: 0;
+}
+
+header {
+  background-color: #DDFFE7;
+  color: #000;
+  padding: 10px;
+  width: 70%;
+  margin: 0 auto; 
+  text-align: center;
+  border-radius: 10px; 
+  box-shadow: 0 0 10px #98D7C2; 
+  height: 6rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 80vh;
+  padding: 3rem;
+}
+
+.recipe-form {
+  background-color: #DDFFE7;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #98D7C2;
+  margin-right: 20px;
+  flex: 1;
+  height: 25rem;
+}
+
+.saved-recipes { 
+  background-color: #DDFFE7;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #98D7C2;
+  flex: 1;
+  height: 26rem; 
+  overflow-y: auto;
+}
+
+.small-input {
+  width: 100%;
+  border-radius: 3px;
+  height: 2rem;
+}
+
+.large-input {
+  width: 100%;
+  height: 6rem;
+  border-radius: 3px;
+}
+
+.add-recipe-button,
+.delete-button,
+.edit-button {
+  font-weight: bold;
+  background-color: #29A0B1;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.accordion-icon {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.recipe-content {
+  display: none;
+  margin-top: 10px;
+}
+
+.recipe-content.show {
+  display: block;
+}
+
+.input-label {
+  font-weight: bold;
+}
+
+.favorite-icon-header {
+  vertical-align: middle;
+  margin-left: 10px;
+  width: 75px; 
+  height: 75px; 
+}
+
+.recipe-name-h {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.accordion-trigger {
+  margin: 0; 
+}
+
+
+.favorite-icon {
+  font-size: 24px; 
+  margin-left: 10px;
+}
+.favorite-icon.favorited {
+  color: gold; 
+}
+
+
+
+
+
+
