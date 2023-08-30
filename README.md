@@ -1,4 +1,4 @@
-# [Project Name] - CFG Intro to JS Final Project
+# Favourite Recipes - CFG Intro to JS Final Project
 
 Welcome to the GitHub repository for the final project of the Code First Girls (CFG) Intro to JavaScript course. This project is hosted on CodePen.io and showcases the skills and concepts learned during the course.
 
