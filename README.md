@@ -16,7 +16,11 @@ To view and test the project on your local machine, follow these steps:
 1. Fork this repository to your own GitHub account.
 2. Clone the forked repository to your local machine.
 3. Install project dependencies using npm.
-# npm install
+```bash
+ npm install
+```
 4. Start the development server.
-# npm run dev
+``` bash
+npm run dev
+```
 5. Open your web browser and navigate to http://localhost:3000 (or the specified port) to see the project running.
