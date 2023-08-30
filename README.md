@@ -20,9 +20,10 @@ To view and test the project on your local machine, follow these steps:
 git clone https://github.com/your-username/[project-name].git
 cd [project-name]
 
-
-# Install project dependencies using npm.
+## Install project dependencies using npm.
 npm install
-# Start the development server.
+
+## Start the development server.
 npm run dev
-# Open your web browser and navigate to http://localhost:3000 (or the specified port) to see the project running.
+
+## Open your web browser and navigate to http://localhost:3000 (or the specified port) to see the project running.
